@@ -180,45 +180,6 @@ export const posts = [
           <p>
             This is the death of the sensitive young man.
           </p>
-          <p>
-            It is the death of the boy who believed that the world would recognize him simply because he was good.
-          </p>
-          <p>
-            But perhaps something remains after the death.
-          </p>
-          <p>
-            Perhaps sensitivity was never supposed to disappear.
-          </p>
-          <p>
-            Perhaps the thing that must die is only the belief that sensitivity means passivity.
-          </p>
-          <p>
-            The world is not given.
-          </p>
-          <p>
-            It is taken.
-          </p>
-          <p>
-            But perhaps the mature man learns that he can take without becoming cruel.
-          </p>
-          <p>
-            He can want without becoming greedy.
-          </p>
-          <p>
-            He can protect himself without becoming cold.
-          </p>
-          <p>
-            He can understand the violence of the world without becoming violent himself.
-          </p>
-          <p>
-            And maybe this is what it means to grow up.
-          </p>
-          <p>
-            Not becoming less sensitive.
-          </p>
-          <p>
-            But becoming strong enough to remain sensitive in a world that does not reward it.
-          </p>
         </>
       ),
     },
@@ -397,45 +358,6 @@ export const posts = [
           </p>
           <p>
             这就是敏感少年的死。
-          </p>
-          <p>
-            这是那个男孩的死——那个相信只要自己善良，世界就会认可他的男孩。
-          </p>
-          <p>
-            但也许死后，还有什么留了下来。
-          </p>
-          <p>
-            也许敏感从来就不应该消失。
-          </p>
-          <p>
-            也许必须死去的，只是那个信念——那个认为敏感等同于被动的信念。
-          </p>
-          <p>
-            世界不是被给予的。
-          </p>
-          <p>
-            它是被夺取的。
-          </p>
-          <p>
-            但也许成熟的人会明白，他可以去夺取，而不必变得残忍。
-          </p>
-          <p>
-            他可以去渴望，而不必变得贪婪。
-          </p>
-          <p>
-            他可以保护自己，而不必变得冷漠。
-          </p>
-          <p>
-            他可以理解这个世界的暴力，而不必让自己也变得暴力。
-          </p>
-          <p>
-            也许这才是成长的真正含义。
-          </p>
-          <p>
-            不是变得不那么敏感。
-          </p>
-          <p>
-            而是变得足够强大，在一个不奖励敏感的世界里，依然保持敏感。
           </p>
         </>
       ),
