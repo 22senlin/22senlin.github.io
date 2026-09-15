@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="28" fill="#004D52" />
+  
+  <!-- Stylized Forest Trees -->
+  <!-- Back Tree -->
+  <polygon points="64,22 42,60 52,60 36,88 92,88 76,60 86,60" fill="#008F97" />
+  
+  <!-- Left Tree -->
+  <polygon points="40,38 22,70 30,70 16,94 64,94 50,70 58,70" fill="#CED19B" opacity="0.9" />
+  
+  <!-- Right Tree -->
+  <polygon points="88,38 70,70 78,70 64,94 112,94 98,70 106,70" fill="#C8E7E9" opacity="0.9" />
+  
+  <!-- Main Front Tree -->
+  <polygon points="64,16 40,56 50,56 32,86 96,86 78,56 88,56" fill="#ffffff" />
+  <rect x="58" y="86" width="12" height="18" rx="2" fill="#CED19B" />
+  
+  <!-- Ferrofluid Liquid Drops at Bottom -->
+  <circle cx="34" cy="106" r="6" fill="#C8E7E9" />
+  <circle cx="64" cy="110" r="8" fill="#ffffff" />
+  <circle cx="94" cy="106" r="6" fill="#CED19B" />
+</svg>

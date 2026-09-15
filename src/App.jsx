@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { FerrofluidEffect } from './ferrofluid-effect.jsx'
-import { Terminal } from './terminal'
 import { posts } from './posts'
 
 export default function App() {
@@ -67,20 +66,11 @@ export default function App() {
                 onBack={() => handleOpenSlug(null)}
               />
             ) : (
-              <>
-                <PostList list={posts} lang={lang} onOpen={handleOpenSlug} />
-                <div className="terminal-desktop-only">
-                  <Terminal lang={lang} />
-                </div>
-              </>
+              <PostList list={posts} lang={lang} onOpen={handleOpenSlug} />
             )}
           </div>
         </div>
       </div>
-
-      {!openSlug && (
-        <Terminal lang={lang} className="terminal-mobile-only" />
-      )}
 
       <div className="bar bar-bottom">
         <a

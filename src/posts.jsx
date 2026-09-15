@@ -1,6 +1,134 @@
 // Blog posts with English & Chinese translations.
 export const posts = [
   {
+    slug: 'killing-people-in-the-simulation',
+    date: '2026-09-14',
+    en: {
+      title: 'killing people in the simulation',
+      excerpt: 'Scratching the itch',
+      content: (
+        <>
+          <h3>prediction</h3>
+          <p>
+            These fights are decided earlier: where he is, where he is looking, where he is going, how long he has been going there.
+          </p>
+          <h3>the gun</h3>
+          <p>
+            The weapon is lethal one hundred percent of the time. The person holding it is not. A kindergartener with a pistol kills exactly as dead as a professional does. A monkey with a gun is a man with a gun.
+          </p>
+          <p>
+            Everything a man spends his life building is flat under a muzzle. What is left is not strength.
+          </p>
+          <p>
+            Who sees whom.
+          </p>
+          <h3>peeking</h3>
+          <p>
+            To look is to pay. The price is the only thing worth owning: not being seen.
+          </p>
+          <p>
+            Peeker's advantage is real, which is why this is a judgement and not a rule. With information, a timing, or a teammate swinging wide, the peek is not a wager — it is a collection. A duel and an execution are the same gunfight; only the timing differs.
+          </p>
+          <p>
+            Patience is the other half. Holding an angle is a slow bleed of nerve, and the other man tires first. He invents a reason to move. The waiting is the weapon.
+          </p>
+          <h3>cover</h3>
+          <p>
+            Concealment hides. Cover saves. Smoke, bush, dark doorway — most men never learn the difference in their lives.
+          </p>
+          <h3>movement</h3>
+          <p>
+            Men walk in straight lines to what they want.
+          </p>
+          <p>
+            Something hunted moves in bursts: a stop with no reason behind it, a turn with no reason behind it, then stillness long enough that whatever is watching loses interest. Never the same angle twice, never the same speed twice. Stillness is not safety; it is a bet that the eye moves on, and the eye usually moves on.
+          </p>
+          <p>
+            Predictability is the only real vulnerability; everything else is survivable. A man whose movement can be forecast is already dead. He has not been shot yet, but the hole is in him.
+          </p>
+          <h3>chaos</h3>
+          <p>
+            The peace in chaos does not come from the chaos ending. It comes when the situation stops being asked to settle first.
+          </p>
+          <p>
+            It arrives in pieces: what is his sorted from what is not, the next action instead of the whole outcome, the worst case said out loud and priced so it does not have to be fought twice. Panic is usually a body problem wearing a philosophy costume.
+          </p>
+          <p>
+            That is the floor, and it holds for about ninety seconds of anything real.
+          </p>
+          <p>
+            Past it a man is standing on something that is not at stake in the room — God, a duty, a person, a code. If he loses everything here and is still something, the chaos has no purchase on him.
+          </p>
+          <p>
+            Peace is a direction, not a state. A man who says he has arrived has either stopped caring or has already lost everything.
+          </p>
+        </>
+      ),
+    },
+    zh: {
+      title: '在模拟中杀人',
+      excerpt: '挠到痒处',
+      content: (
+        <>
+          <h3>预测</h3>
+          <p>
+            胜负决出得更早：他在哪、他看向哪、他要去哪、他已经朝那里走了多久。
+          </p>
+          <h3>枪</h3>
+          <p>
+            武器在一百次里一百次致命。拿着它的人不是。一个幼儿园小孩拿着手枪，弄死一个人的效果和一个职业选手完全一样。一只猴子拿着枪，就是一个拿着枪的人。
+          </p>
+          <p>
+            一个男人一辈子搭起来的东西，在枪口下都是平的。剩下的不是力量。
+          </p>
+          <p>
+            谁先看见谁。
+          </p>
+          <h3>探头</h3>
+          <p>
+            去看就要付钱。价格是唯一值得拥有的东西：不被看见。
+          </p>
+          <p>
+            peeker's advantage 是真的，所以这是判断题，不是规则。有信息、有时机、有队友从另一侧拉出去，那次探头就不是赌注，是收割。对枪和处决是同一场枪战，区别只在时机。
+          </p>
+          <p>
+            另一半是耐心。守一个角度是对神经的缓慢放血，而先撑不住的永远是对方。他会给自己编造一个移动的理由。等待本身就是武器。
+          </p>
+          <h3>掩体</h3>
+          <p>
+            遮蔽让人不被看见，掩体让人不被杀死。烟雾、灌木、黑门口——多数人一辈子都没分清这两者。
+          </p>
+          <h3>移动</h3>
+          <p>
+            人会沿着直线走向他想要的东西。
+          </p>
+          <p>
+            被猎的东西一段一段地移动：一次没有理由的停下，一次没有理由的转向，然后是足够长的静止，长到盯着它的东西失去兴趣。同一个角度绝不走第二次，同一种速度绝不用第二次。静止不是安全，静止是在赌那只眼睛会移开，而眼睛通常都会移开。
+          </p>
+          <p>
+            可预测性是唯一真正的破绽，其他都能扛过去。一个移动可以被预测的人已经死了。他还没被开枪，但洞已经在他身上。
+          </p>
+          <h3>混乱</h3>
+          <p>
+            混乱里的平静不来自混乱结束。它来的时候，是局面不再被要求先安静下来。
+          </p>
+          <p>
+            它是一块一块来的：分清哪些是他的、哪些不是；只想下一步，不想整个结局；把最坏的结果说出口并标好价钱，让它不必再被打第二遍。恐慌通常是一个穿着哲学外衣的身体问题。
+          </p>
+          <p>
+            这是地板，而它对任何真实的东西大概只能撑九十秒。
+          </p>
+          <p>
+            过了那里，一个人脚下站的是不在这个房间里被押上的东西——上帝、职责、某个人、一条准则。如果他在这里失去一切之后仍然是什么，混乱就抓不住他。
+          </p>
+          <p>
+            平静是方向，不是状态。说自己已经到达的人，要么已经不再在乎，要么已经失去过一切。
+          </p>
+        </>
+      ),
+    },
+  },
+  {
     slug: 'the-death-of-the-sensitive-young-man',
     date: '2026-09-09',
     en: {
