@@ -138,34 +138,28 @@ export const posts = [
       content: (
         <>
           <p>
-            The death of the sensitive young man happens when the young man realizes that the world is not given, it is taken.
+            The death of the sensitive young man happens when he realizes the world is not given, it is taken.
           </p>
           <p>
-            All the benefits the young man received growing up, the doors opened to him are all closed.
+            The benefits he received growing up, the doors that opened to him, are all closed.
+          </p>
+          <p>
+            He is not imagining the loss. The door closing in front of a man is real, and so is the grief.
           </p>
           <p>
             Is this betrayal?
           </p>
           <p>
-            The life of taking things as they come are suddenly not as accessible anymore to the young man.
+            The life of taking things as they come is suddenly no longer available to him.
           </p>
           <p>
-            Why is it that the world seemed so generous before?
+            Betrayal is realizing that these things were never promised, and that the world does not owe him the softness it once gave him.
           </p>
           <p>
-            Why did it seem that being good was enough?
+            It is not self-pity to call it that.
           </p>
           <p>
-            Why did it seem that if you were curious, if you were kind, if you tried your best, something would meet you on the other side?
-          </p>
-          <p>
-            Betrayal is the realization that these things were never promised.
-          </p>
-          <p>
-            Betrayal is finding out that the world does not owe you the same softness that it once gave you.
-          </p>
-          <p>
-            The sensitive young man does not understand this at first.
+            He does not understand this at first.
           </p>
           <p>
             He thinks there must be some mistake.
@@ -180,6 +174,9 @@ export const posts = [
             He thinks that if he remains honest, the world will recognize his honesty.
           </p>
           <p>
+            None of that was stupid. It was taught to him by people who meant it.
+          </p>
+          <p>
             But the world does not recognize these things automatically.
           </p>
           <p>
@@ -189,22 +186,16 @@ export const posts = [
             It does not watch the young man grow.
           </p>
           <p>
-            It does not know what he has been through.
-          </p>
-          <p>
             It does not care how difficult it was for him to become the person standing in front of it.
           </p>
           <p>
-            And this is where the death begins.
+            This is not a verdict on him. It is a description of the world he was sent into.
           </p>
           <p>
-            Not the death of the man.
+            This is where the death begins. Not the death of the man — the death of the expectation that the world will take care of him.
           </p>
           <p>
-            The death of the expectation that the world will take care of him.
-          </p>
-          <p>
-            The sensitive young man must learn that the things he once received freely must now be pursued.
+            What he once received freely he must now pursue.
           </p>
           <p>
             That friendship must be maintained.
@@ -216,22 +207,13 @@ export const posts = [
             That money must be earned.
           </p>
           <p>
-            That respect must be commanded.
-          </p>
-          <p>
             That opportunity must be taken before someone else takes it.
           </p>
           <p>
-            And he hates this.
-          </p>
-          <p>
-            Because taking feels violent to him.
+            He hates this, because taking feels violent to him.
           </p>
           <p>
             He was taught to receive.
-          </p>
-          <p>
-            He was taught to ask.
           </p>
           <p>
             He was taught to wait.
@@ -240,46 +222,28 @@ export const posts = [
             He was taught that wanting something too badly was ugly.
           </p>
           <p>
-            So when the world begins demanding that he take what he wants, he feels as though he is becoming someone else.
+            So when the world demands that he take what he wants, he feels himself becoming someone else.
           </p>
           <p>
-            Perhaps this is why sensitivity becomes painful.
-          </p>
-          <p>
-            Because sensitivity allows the young man to see the cruelty in taking.
+            Sensitivity makes it worse: it lets him see the cruelty in taking.
           </p>
           <p>
             He sees the person he steps over.
           </p>
           <p>
-            He sees the person who loses.
-          </p>
-          <p>
-            He sees the unfairness.
-          </p>
-          <p>
             He sees the invisible cost.
           </p>
           <p>
-            And so he hesitates.
-          </p>
-          <p>
-            While the less sensitive man moves forward.
+            So he hesitates, and the less sensitive man moves forward.
           </p>
           <p>
             The sensitive young man stays behind, wondering whether he is allowed to want anything badly enough to hurt someone else for it.
           </p>
           <p>
-            But eventually he understands something worse.
+            Eventually he understands something worse: not taking is also a choice.
           </p>
           <p>
-            Not taking is also a choice.
-          </p>
-          <p>
-            To refuse to take your place in the world does not make the world more gentle.
-          </p>
-          <p>
-            It only means someone else occupies the place that could have been yours.
+            Refusing his place in the world does not make the world gentler. It only means someone else takes it.
           </p>
           <p>
             And so the sensitive young man begins to harden.
@@ -291,7 +255,7 @@ export const posts = [
             Because he has to.
           </p>
           <p>
-            He learns to ask for more.
+            It costs him something. The hardness is not free, and he feels the price while he pays it.
           </p>
           <p>
             He learns to say no.
@@ -304,6 +268,9 @@ export const posts = [
           </p>
           <p>
             And some doors must be broken.
+          </p>
+          <p>
+            It is not a triumph. It is a funeral, and he is the only one attending.
           </p>
           <p>
             This is the death of the sensitive young man.
@@ -320,31 +287,25 @@ export const posts = [
             敏感少年的死，发生在他意识到世界不是被给予的，而是被夺取的那一刻。
           </p>
           <p>
-            那些他成长过程中所获得的恩惠，那些曾为他打开的门，如今全都关上了。
+            那些他成长过程中获得的恩惠、那些曾为他打开的门，如今全都关上了。
+          </p>
+          <p>
+            他不是在幻想，失去是真的。挡在一个男人面前的那扇门是真的，随之而来的哀伤也是真的。
           </p>
           <p>
             这是一种背叛吗？
           </p>
           <p>
-            那种顺势而为、随遇而安的生活方式，对少年来说突然变得遥不可及。
+            那种顺势而为、随遇而安的生活，突然对他不再可及。
           </p>
           <p>
-            为什么世界以前看起来如此慷慨？
+            背叛，是意识到这一切从未被承诺过，也是发现世界并不欠他曾经给出的那份温柔。
           </p>
           <p>
-            为什么善良曾经似乎就已足够？
+            把它叫作背叛，并不是自怜。
           </p>
           <p>
-            为什么曾经感觉，只要你保持好奇、心存善意、尽力而为，就会有什么在另一边等待着你？
-          </p>
-          <p>
-            背叛，是意识到这一切从未被承诺过。
-          </p>
-          <p>
-            背叛，是发现世界并不欠你曾经给予你的那份温柔。
-          </p>
-          <p>
-            敏感少年起初并不明白这些。
+            起初他并不明白这些。
           </p>
           <p>
             他以为一定是哪里出了错。
@@ -353,10 +314,13 @@ export const posts = [
             他以为只要把自己解释得足够清楚，就会有人理解。
           </p>
           <p>
-            他以为只要努力得足够刻苦，就会有人注意到。
+            他以为只要足够刻苦，就会有人注意到。
           </p>
           <p>
             他以为只要保持诚实，世界就会承认他的诚实。
+          </p>
+          <p>
+            这些想法并不愚蠢。那是别人教给他的，而教他的人当时是认真的。
           </p>
           <p>
             但世界不会自动承认这些。
@@ -368,25 +332,19 @@ export const posts = [
             它不会注视少年成长。
           </p>
           <p>
-            它不知道他经历过什么。
-          </p>
-          <p>
             它不在乎他成为如今站在它面前的这个人，究竟有多艰难。
           </p>
           <p>
-            而死亡，正是从这里开始的。
+            这不是对他的判决，而是对他被送进的这个世界的描述。
           </p>
           <p>
-            不是那个人的死。
+            死亡正是从这里开始。不是那个人的死——而是那份期待的死：期待世界会照顾他。
           </p>
           <p>
-            而是那份期待的死——期待世界会照顾他。
+            那些曾经唾手可得的东西，如今必须自己去追求。
           </p>
           <p>
-            敏感少年必须学会：那些曾经唾手可得的东西，如今必须去追求。
-          </p>
-          <p>
-            友谊需要用心维系。
+            友谊需要维系。
           </p>
           <p>
             爱需要主动选择。
@@ -395,22 +353,13 @@ export const posts = [
             金钱需要努力赚取。
           </p>
           <p>
-            尊重需要靠自己赢得。
-          </p>
-          <p>
             机会需要在别人抢先之前牢牢把握。
           </p>
           <p>
-            他憎恶这一切。
-          </p>
-          <p>
-            因为夺取这件事，在他看来带着一种暴力。
+            他憎恶这一切，因为夺取在他看来带着一种暴力。
           </p>
           <p>
             他被教导要接受。
-          </p>
-          <p>
-            他被教导要请求。
           </p>
           <p>
             他被教导要等待。
@@ -419,58 +368,40 @@ export const posts = [
             他被教导，过于渴望某样东西是一件丑陋的事。
           </p>
           <p>
-            所以当世界开始要求他去夺取自己想要的，他感觉自己正在变成另一个人。
+            所以当世界要求他去夺取自己想要的，他感觉自己正在变成另一个人。
           </p>
           <p>
-            也许这正是敏感变得痛苦的原因。
-          </p>
-          <p>
-            因为敏感让少年能够看见夺取中的残忍。
+            敏感让这件事更糟：它让他看见夺取中的残忍。
           </p>
           <p>
             他看见那个被他踩过去的人。
           </p>
           <p>
-            他看见那个失去的人。
-          </p>
-          <p>
-            他看见不公平。
-          </p>
-          <p>
             他看见无形的代价。
           </p>
           <p>
-            于是他犹豫了。
+            于是他犹豫了，而不那么敏感的人已经向前走了。
           </p>
           <p>
-            而不那么敏感的人，已经向前走了。
+            敏感少年留在原地，思考自己是否有权渴望某样东西，哪怕为此会伤害别人。
           </p>
           <p>
-            敏感少年留在原地，思考自己是否有权去渴望某样东西，哪怕为此会伤害别人。
+            最终他明白了一件更残酷的事：不去夺取，本身也是一种选择。
           </p>
           <p>
-            但最终他明白了一件更残酷的事。
-          </p>
-          <p>
-            不去夺取，本身也是一种选择。
-          </p>
-          <p>
-            拒绝在世界中占据自己的位置，并不会让世界变得更温柔。
-          </p>
-          <p>
-            它只意味着，那个本可以属于你的位置，被别人占据了。
+            拒绝在世界中占据自己的位置，并不会让世界变得更温柔，只意味着那个位置被别人占了。
           </p>
           <p>
             于是敏感少年开始变硬。
           </p>
           <p>
-            不是因为他想要变硬。
+            不是因为他想要。
           </p>
           <p>
             而是因为他不得不。
           </p>
           <p>
-            他学会了要求更多。
+            这要他付出代价。变硬不是免费的，他一边付钱，一边感觉得到。
           </p>
           <p>
             他学会了说不。
@@ -483,6 +414,9 @@ export const posts = [
           </p>
           <p>
             有些门必须被撞破。
+          </p>
+          <p>
+            这不是胜利。这是一场葬礼，而到场的只有他一个人。
           </p>
           <p>
             这就是敏感少年的死。
