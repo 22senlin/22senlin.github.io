@@ -10,6 +10,17 @@ Voice laws, cut laws, and the mechanics. Rules here were paid for with deletion 
 - **No second-person coaching** at the reader. The post is not telling anyone what to do.
 - Plain speech over clever. If a line needs decoding, it is the wrong line.
 
+## no drama
+
+Understatement is his register. He says the bad thing flatly and lets it sit; the draft makes it *mean something*. That is the dramatization, and it reads as machine the same way the latinate nouns do.
+
+- **One image per section, and it must be doing literal work.** A metaphor that replaces the claim instead of decorating it is the main offender: *"the shape of the reality he is standing in"*, *"the hole is in him"*, *"lies flat under a muzzle"*. If the sentence still says the same thing with the image removed, keep it only once.
+- **No grand-summary sentences.** *"Nobody's coming to punish him. The total does it."* — state it once, drop the setup, let it land without help.
+- **No all-or-nothing quantifiers.** *"everything a man spends his life building"*, *"everyone"*, *"never again"*. Say the actual case: some of it, usually, the one he is in.
+- **No escalating every paragraph.** Machine prose is a crescendo: each paragraph heavier than the last. Let some be plain and factual. A flat paragraph between two hard ones is what makes the hard ones land.
+- **Funereal vocabulary is earned, not sprayed.** *death of…*, *funeral*, *grief*, *funeral he is the only one attending* belong where the subject really is a death (`the sensitive young man`), never as mood.
+- **Test:** would he say this sentence out loud to a friend without the friend hearing that it was written down?
+
 ## his voice, evidenced
 
 Source: `/blog/1` — `determining-who-the-enemy-is` ("the enemy within", 2026-08-19), the only post in the corpus written by him unaided. Read it before drafting anything; the citations below are from it.
