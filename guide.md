@@ -10,6 +10,27 @@ Voice laws, cut laws, and the mechanics. Rules here were paid for with deletion 
 - **No second-person coaching** at the reader. The post is not telling anyone what to do.
 - Plain speech over clever. If a line needs decoding, it is the wrong line.
 
+## his voice, evidenced
+
+Source: `/blog/1` — `determining-who-the-enemy-is` ("the enemy within", 2026-08-19), the only post in the corpus written by him unaided. Read it before drafting anything; the citations below are from it.
+
+**Rules that transfer into a draft:**
+1. **Premises are not argued.** It opens on *"I had just uncovered the existence of three demons: Jezebel, Athaliah, and Delilah"* — names as load-bearing structure, taxonomy as axiom, never explained, never defended, no reader onboarding. Trust his terms instead of adding the establishing sentence.
+2. **Ledger metaphors are native.** *"she will lay claim to or take credit for your successes even though she contributed absolutely nothing"* — contribution, credit, claim, rebuilding. Same register as the sum-of-choices post (debt, interest, tax on revision, bill). When the subject has a price, use the accounting frame; it is the corpus's most reliable fingerprint.
+3. **Certainty outward, doubt inward.** Absolute about the world (*"A woman sent from Satan will never be convinced otherwise"*), hedged about himself (*"I have fears"*, *"It seems like"*, *"Maybe as I write this"*). Never reverse it — no hedged thesis, no confident self-assessment.
+4. **A quote or a flat aphorism is a legitimate ending.** *"The future belongs to the whimsy…"* — unattributed, unintroduced, stops rather than concludes. Do not integrate it or explain it.
+5. **The self-concession stays an aside**, mid-thought (*"That is not to say that I have the cleanest record with women"*), never promoted into a balanced both-sides paragraph.
+
+**Also his, and not to be fabricated:**
+- The reader is in the room and can be baited: *"And if she is reading this, she will never listen or be able to read until the end."* Self-sealing — disagree and you have proven it.
+- The inference rule is unfalsifiable and used as logic, not as metaphor: only the enemy would want him to believe that.
+- Pronoun slide on uncomfortable ground: I → you → he inside one paragraph, in a confession.
+- Concrete in the nouns, abstract in the harm — three named demons, zero scenes, zero dialogue, zero incident.
+- Rhythm: long analytic sentences stacked, then four flat words (*"What a pitiful way to live."*).
+- The discovery happens on the page (*"Maybe as I write this, I realize the enemy was within me all along"*), not arranged before it.
+
+**Consequence for drafting:** the analytical third-person essays we write together are a different genre, and none of the above licenses first person, a baited reader, or an unfalsifiable claim in them. It does license the ledger frame, the flat four-word punch, and ending on a quote.
+
 ## what gets deleted
 
 - **Framing flourishes** — the sentence that sets the point up before the point ("Aim is a hardware problem…"). Keep the hard claim, drop the run-up.

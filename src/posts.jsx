@@ -225,138 +225,44 @@ export const posts = [
     date: '2026-09-09',
     en: {
       title: 'the death of the sensitive young man',
-      excerpt:
-        'The death of the sensitive young man happens when the young man realizes that the world is not given, it is taken.',
+      excerpt: 'The world is not given, it is taken.',
       content: (
         <>
           <p>
-            The death of the sensitive young man happens when he realizes the world is not given, it is taken.
+            The death of the sensitive young man happens when he realizes the world is not given, it is taken. The benefits he received growing up, the doors that opened to him, are all closed. He is not imagining the loss. The door closing in front of a man is real, and so is the grief.
           </p>
           <p>
-            The benefits he received growing up, the doors that opened to him, are all closed.
+            Is this betrayal? The life of taking things as they come is suddenly no longer available to him. Betrayal is realizing that these things were never promised, and that the world does not owe him the softness it once gave him. It is not self-pity to call it that.
           </p>
           <p>
-            He is not imagining the loss. The door closing in front of a man is real, and so is the grief.
+            He does not understand this at first. He thinks there must be some mistake. He thinks that if he explains himself well enough, someone will understand. He thinks that if he works hard enough, someone will notice. He thinks that if he remains honest, the world will recognize his honesty.
           </p>
           <p>
-            Is this betrayal?
+            None of that was stupid. It was taught to him by people who meant it. But the world does not recognize these things automatically.
           </p>
           <p>
-            The life of taking things as they come is suddenly no longer available to him.
+            The world is not a parent. It does not watch the young man grow. It does not care how difficult it was for him to become the person standing in front of it.
           </p>
           <p>
-            Betrayal is realizing that these things were never promised, and that the world does not owe him the softness it once gave him.
+            This is not a verdict on him. It is a description of the world he was sent into. This is where the death begins. Not the death of the man — the death of the expectation that the world will take care of him.
           </p>
           <p>
-            It is not self-pity to call it that.
+            What he once received freely he must now pursue. That friendship must be maintained. That love must be chosen. That money must be earned. That opportunity must be taken before someone else takes it.
           </p>
           <p>
-            He does not understand this at first.
+            He hates this, because taking feels violent to him. He was taught to receive. He was taught to wait. He was taught that wanting something too badly was ugly. So when the world demands that he take what he wants, he feels himself becoming someone else.
           </p>
           <p>
-            He thinks there must be some mistake.
+            Sensitivity makes it worse: it lets him see the cruelty in taking. He sees the person he steps over. He sees the invisible cost. So he hesitates, and the less sensitive man moves forward. The sensitive young man stays behind, wondering whether he is allowed to want anything badly enough to hurt someone else for it.
           </p>
           <p>
-            He thinks that if he explains himself well enough, someone will understand.
+            Eventually he understands something worse: not taking is also a choice. Refusing his place in the world does not make the world gentler. It only means someone else takes it. And so the sensitive young man begins to harden.
           </p>
           <p>
-            He thinks that if he works hard enough, someone will notice.
+            Not because he wants to. Because he has to.
           </p>
           <p>
-            He thinks that if he remains honest, the world will recognize his honesty.
-          </p>
-          <p>
-            None of that was stupid. It was taught to him by people who meant it.
-          </p>
-          <p>
-            But the world does not recognize these things automatically.
-          </p>
-          <p>
-            The world is not a parent.
-          </p>
-          <p>
-            It does not watch the young man grow.
-          </p>
-          <p>
-            It does not care how difficult it was for him to become the person standing in front of it.
-          </p>
-          <p>
-            This is not a verdict on him. It is a description of the world he was sent into.
-          </p>
-          <p>
-            This is where the death begins. Not the death of the man — the death of the expectation that the world will take care of him.
-          </p>
-          <p>
-            What he once received freely he must now pursue.
-          </p>
-          <p>
-            That friendship must be maintained.
-          </p>
-          <p>
-            That love must be chosen.
-          </p>
-          <p>
-            That money must be earned.
-          </p>
-          <p>
-            That opportunity must be taken before someone else takes it.
-          </p>
-          <p>
-            He hates this, because taking feels violent to him.
-          </p>
-          <p>
-            He was taught to receive.
-          </p>
-          <p>
-            He was taught to wait.
-          </p>
-          <p>
-            He was taught that wanting something too badly was ugly.
-          </p>
-          <p>
-            So when the world demands that he take what he wants, he feels himself becoming someone else.
-          </p>
-          <p>
-            Sensitivity makes it worse: it lets him see the cruelty in taking.
-          </p>
-          <p>
-            He sees the person he steps over.
-          </p>
-          <p>
-            He sees the invisible cost.
-          </p>
-          <p>
-            So he hesitates, and the less sensitive man moves forward.
-          </p>
-          <p>
-            The sensitive young man stays behind, wondering whether he is allowed to want anything badly enough to hurt someone else for it.
-          </p>
-          <p>
-            Eventually he understands something worse: not taking is also a choice.
-          </p>
-          <p>
-            Refusing his place in the world does not make the world gentler. It only means someone else takes it.
-          </p>
-          <p>
-            And so the sensitive young man begins to harden.
-          </p>
-          <p>
-            Not because he wants to.
-          </p>
-          <p>
-            Because he has to.
-          </p>
-          <p>
-            It costs him something. The hardness is not free, and he feels the price while he pays it.
-          </p>
-          <p>
-            He learns to say no.
-          </p>
-          <p>
-            He learns that being misunderstood is sometimes preferable to being agreeable.
-          </p>
-          <p>
-            He learns that some doors will not open.
+            It costs him something. The hardness is not free, and he feels the price while he pays it. He learns to say no. He learns that being misunderstood is sometimes preferable to being agreeable. He learns that some doors will not open.
           </p>
           <p>
             And some doors must be broken.
@@ -372,137 +278,44 @@ export const posts = [
     },
     zh: {
       title: '敏感少年之死',
-      excerpt: '敏感少年的死，发生在他意识到世界不是被给予的，而是被夺取的那一刻。',
+      excerpt: '世界不是被给予的，而是被夺取的。',
       content: (
         <>
           <p>
-            敏感少年的死，发生在他意识到世界不是被给予的，而是被夺取的那一刻。
+            敏感少年的死，发生在他意识到世界不是被给予的，而是被夺取的那一刻。 那些他成长过程中获得的恩惠、那些曾为他打开的门，如今全都关上了。 他不是在幻想，失去是真的。挡在一个男人面前的那扇门是真的，随之而来的哀伤也是真的。
           </p>
           <p>
-            那些他成长过程中获得的恩惠、那些曾为他打开的门，如今全都关上了。
+            这是一种背叛吗？ 那种顺势而为、随遇而安的生活，突然对他不再可及。 背叛，是意识到这一切从未被承诺过，也是发现世界并不欠他曾经给出的那份温柔。 把它叫作背叛，并不是自怜。
           </p>
           <p>
-            他不是在幻想，失去是真的。挡在一个男人面前的那扇门是真的，随之而来的哀伤也是真的。
+            起初他并不明白这些。 他以为一定是哪里出了错。 他以为只要把自己解释得足够清楚，就会有人理解。 他以为只要足够刻苦，就会有人注意到。 他以为只要保持诚实，世界就会承认他的诚实。
           </p>
           <p>
-            这是一种背叛吗？
+            这些想法并不愚蠢。那是别人教给他的，而教他的人当时是认真的。 但世界不会自动承认这些。
           </p>
           <p>
-            那种顺势而为、随遇而安的生活，突然对他不再可及。
+            世界不是父母。 它不会注视少年成长。 它不在乎他成为如今站在它面前的这个人，究竟有多艰难。
           </p>
           <p>
-            背叛，是意识到这一切从未被承诺过，也是发现世界并不欠他曾经给出的那份温柔。
+            这不是对他的判决，而是对他被送进的这个世界的描述。 死亡正是从这里开始。不是那个人的死——而是那份期待的死：期待世界会照顾他。
           </p>
           <p>
-            把它叫作背叛，并不是自怜。
+            那些曾经唾手可得的东西，如今必须自己去追求。 友谊需要维系。 爱需要主动选择。 金钱需要努力赚取。 机会需要在别人抢先之前牢牢把握。
           </p>
           <p>
-            起初他并不明白这些。
+            他憎恶这一切，因为夺取在他看来带着一种暴力。 他被教导要接受。 他被教导要等待。 他被教导，过于渴望某样东西是一件丑陋的事。 所以当世界要求他去夺取自己想要的，他感觉自己正在变成另一个人。
           </p>
           <p>
-            他以为一定是哪里出了错。
+            敏感让这件事更糟：它让他看见夺取中的残忍。 他看见那个被他踩过去的人。 他看见无形的代价。 于是他犹豫了，而不那么敏感的人已经向前走了。 敏感少年留在原地，思考自己是否有权渴望某样东西，哪怕为此会伤害别人。
           </p>
           <p>
-            他以为只要把自己解释得足够清楚，就会有人理解。
+            最终他明白了一件更残酷的事：不去夺取，本身也是一种选择。 拒绝在世界中占据自己的位置，并不会让世界变得更温柔，只意味着那个位置被别人占了。 于是敏感少年开始变硬。
           </p>
           <p>
-            他以为只要足够刻苦，就会有人注意到。
+            不是因为他想要。 而是因为他不得不。
           </p>
           <p>
-            他以为只要保持诚实，世界就会承认他的诚实。
-          </p>
-          <p>
-            这些想法并不愚蠢。那是别人教给他的，而教他的人当时是认真的。
-          </p>
-          <p>
-            但世界不会自动承认这些。
-          </p>
-          <p>
-            世界不是父母。
-          </p>
-          <p>
-            它不会注视少年成长。
-          </p>
-          <p>
-            它不在乎他成为如今站在它面前的这个人，究竟有多艰难。
-          </p>
-          <p>
-            这不是对他的判决，而是对他被送进的这个世界的描述。
-          </p>
-          <p>
-            死亡正是从这里开始。不是那个人的死——而是那份期待的死：期待世界会照顾他。
-          </p>
-          <p>
-            那些曾经唾手可得的东西，如今必须自己去追求。
-          </p>
-          <p>
-            友谊需要维系。
-          </p>
-          <p>
-            爱需要主动选择。
-          </p>
-          <p>
-            金钱需要努力赚取。
-          </p>
-          <p>
-            机会需要在别人抢先之前牢牢把握。
-          </p>
-          <p>
-            他憎恶这一切，因为夺取在他看来带着一种暴力。
-          </p>
-          <p>
-            他被教导要接受。
-          </p>
-          <p>
-            他被教导要等待。
-          </p>
-          <p>
-            他被教导，过于渴望某样东西是一件丑陋的事。
-          </p>
-          <p>
-            所以当世界要求他去夺取自己想要的，他感觉自己正在变成另一个人。
-          </p>
-          <p>
-            敏感让这件事更糟：它让他看见夺取中的残忍。
-          </p>
-          <p>
-            他看见那个被他踩过去的人。
-          </p>
-          <p>
-            他看见无形的代价。
-          </p>
-          <p>
-            于是他犹豫了，而不那么敏感的人已经向前走了。
-          </p>
-          <p>
-            敏感少年留在原地，思考自己是否有权渴望某样东西，哪怕为此会伤害别人。
-          </p>
-          <p>
-            最终他明白了一件更残酷的事：不去夺取，本身也是一种选择。
-          </p>
-          <p>
-            拒绝在世界中占据自己的位置，并不会让世界变得更温柔，只意味着那个位置被别人占了。
-          </p>
-          <p>
-            于是敏感少年开始变硬。
-          </p>
-          <p>
-            不是因为他想要。
-          </p>
-          <p>
-            而是因为他不得不。
-          </p>
-          <p>
-            这要他付出代价。变硬不是免费的，他一边付钱，一边感觉得到。
-          </p>
-          <p>
-            他学会了说不。
-          </p>
-          <p>
-            他学会了，有时候被误解比一味顺从更值得。
-          </p>
-          <p>
-            他学会了，有些门不会打开。
+            这要他付出代价。变硬不是免费的，他一边付钱，一边感觉得到。 他学会了说不。 他学会了，有时候被误解比一味顺从更值得。 他学会了，有些门不会打开。
           </p>
           <p>
             有些门必须被撞破。
