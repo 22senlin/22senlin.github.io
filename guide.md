@@ -31,6 +31,50 @@ Source: `/blog/1` — `determining-who-the-enemy-is` ("the enemy within", 2026-0
 
 **Consequence for drafting:** the analytical third-person essays we write together are a different genre, and none of the above licenses first person, a baited reader, or an unfalsifiable claim in them. It does license the ledger frame, the flat four-word punch, and ending on a quote.
 
+## ai tells (measured)
+
+Full-form negatives per 100 words: the author-written post **0.6**, our drafts **1.75-2.63**. Contractions: **1** in his, **0-1** in ours. That gap is the whole tell - prose that never contracts and never stops negating is the machine's register.
+
+- **Contract.** `doesn't`, `isn't`, `won't`, `nobody's`, `there's`. He contracts ("that doesn't mean you have to be"); a 400-word post with zero contractions reads generated.
+- **Fewer full negatives.** Three `is not / does not / cannot` in one paragraph reads like documentation.
+- **One antithesis per post, maximum.** "X is not A, it is B" / "X is not A; Y is not B" carried 4 of 12 paragraphs in the first sum-of-choices draft. That formula *is* the AI voice.
+- **No colon-list definitions.** `It arrives in pieces: a, b, and c` -> separate sentences or neither. Same for em-dash lists (`- a skill never built, a person never met, a body never trained`).
+- **No automatic tricolons.** Two items or one; three only when there are really three.
+- **Concept nouns -> verbs.** "the arithmetic, already done" -> "that math was done years ago"; "the tax on revision" -> "that gap is the tax"; "the price of everything he will choose afterwards" -> "good ones buy room later".
+- **Stop ending every paragraph on a punch.** Machine prose is 100% load-bearing. Let sentences be plain, let paragraphs trail.
+- **Slack is human.** Specific numbers and objects that carry no argument - "twenty years", "the car", "a beer", "the phone", "an application", "a lease", "nobody's shot him", "a body in worse shape". The human post is full of them; our drafts had none.
+- **Delete balancing adverbs** ("usually", "genuinely", "really") unless the number is real.
+- **Vary sentence length.** A run of same-sized sentences is machine rhythm. Let one be plain and slack, let one trail off — not every sentence is a punch and not every paragraph needs a final line.
+- **Allow an aside.** A short aside or self-implication mid-thought ("That is not to say I have the cleanest record") is human and he does it — keep it small, never turn it into a balanced both-sides paragraph.
+- **Start a sentence with And / But / So.** Speech does, and it breaks the fabricated symmetry.
+- **Plain words.** The other machine accent is the latinate abstract noun. Cut: `subtraction` -> *taking it back*, `predictability` -> *being predictable*, `lethal` -> *kills*, `concealment` -> *what hides him*, `judgement` -> *a call*, `forecast` -> *called*, `expectation` -> *the idea*, `opportunity` -> *the chance*, `maintained` -> *kept up*, `available` -> *gone*, `recognize` -> *see*, `renames` -> *gives a new name*. Test: three syllables plus a Latin ending (`-tion`, `-ity`, `-ance`, `-ment`, `-ous`) means there is a two-syllable word a person would say out loud. Trade terms that are really his stay: `peeker's advantage`, `cover`.
+**Worked swaps** — every one landed in the 2026-09-27 pass:
+
+| machine | plain |
+|---|---|
+| subtraction / additions | no taking it back / the book only goes up |
+| unplace | take it back |
+| lethal | kills every time |
+| judgement | a call |
+| concealment | what hides him |
+| predictability / forecast | being predictable / moves can be called |
+| available | gone |
+| expectation | the idea |
+| opportunity | the chance |
+| maintained | kept up |
+| recognize | see |
+| renames | gives a new name |
+| 算术 / 撤销 / 期待 / 维持 / 随遇而安 | 这笔账 / 收回来 / 指望 / 接着处 / 有什么就接什么 |
+
+- **zh: no 成语, no 书面语.** 随遇而安 -> *有什么就接什么*; 撤销 -> *收回来*; 期待 -> *指望*; 维持 -> *接着处*; 认 -> *看见*; 明白 -> *想通*. Written-register words are the zh half of the same tell.
+- **Plain words.** The other machine accent is the latinate abstract noun. Cut: `subtraction` -> *taking it back*, `predictability` -> *being predictable*, `lethal` -> *kills*, `concealment` -> *what hides him*, `judgement` -> *a call*, `forecast` -> *called*, `expectation` -> *the idea*, `opportunity` -> *the chance*, `maintained` -> *kept up*, `available` -> *gone*, `recognize` -> *see*, `renames` -> *gives a new name*. Test: if it has three syllables and a Latin ending (`-tion`, `-ity`, `-ance`, `-ment`, `-ous`), there is a two-syllable word a person would say out loud. Trade words that are really his stay (`peeker's advantage`, `cover`, `concealment` only where the game term is meant).
+- **zh: no 成语, no 书面语.** 随遇而安 -> *有什么就接什么*; 撤销 -> *收回来*; 期待 -> *指望*; 维持 -> *接着处*; 察觉/认 -> *看见*; 理解 -> *想通*. Written-register words are the zh version of the same tell.
+- **No litanies of identical openers** ("He learns to say no. He learns that… He learns that…"). The device is tempting and cheap; it is only human when every line adds a new fact, which ours did not.
+
+The pass is syntax only: every claim survives, every sentence gets plainer. Both languages - zh drops the written register (`不是A，而是B`) for speech.
+
+Run this list **while drafting, not after** — as a checklist on each new paragraph, it costs nothing; as a repair pass it costs a rewrite of the whole post in two languages.
+
 ## what gets deleted
 
 - **Framing flourishes** — the sentence that sets the point up before the point ("Aim is a hardware problem…"). Keep the hard claim, drop the run-up.
@@ -66,3 +110,7 @@ Source: `/blog/1` — `determining-who-the-enemy-is` ("the enemy within", 2026-0
 ## verify
 
 `npm run build`, then grep the bundle for the slug, an English marker, and a **zh** marker (`grep -o '<marker>' dist/assets/index-*.js`) — the slug alone does not prove the translation shipped. No dev server, no browser vision.
+
+Two traps in that check:
+- **An unchanged asset hash means the write never landed.** A rebuild after an edit must produce a new `index-*.js` name; same name = same content = the edit is still in memory. Re-read the file from disk before believing anything.
+- **`grep -c A && grep -c B` stops on the first zero count** (grep exits 1 with no match), so a chained verification silently skips the rest. Count in Python.
