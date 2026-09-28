@@ -292,9 +292,6 @@ export const posts = [
             And some doors must be broken.
           </p>
           <p>
-            It isn't a triumph. It's a funeral, and he's the only one attending.
-          </p>
-          <p>
             This is the death of the sensitive young man.
           </p>
         </>
@@ -343,9 +340,6 @@ export const posts = [
           </p>
           <p>
             有些门必须被撞破。
-          </p>
-          <p>
-            这不是胜利。这是一场葬礼，到场的只有他一个人。
           </p>
           <p>
             这就是敏感少年的死。

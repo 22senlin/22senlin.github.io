@@ -18,7 +18,7 @@ Understatement is his register. He says the bad thing flatly and lets it sit; th
 - **No grand-summary sentences.** *"Nobody's coming to punish him. The total does it."* — state it once, drop the setup, let it land without help.
 - **No all-or-nothing quantifiers.** *"everything a man spends his life building"*, *"everyone"*, *"never again"*. Say the actual case: some of it, usually, the one he is in.
 - **No escalating every paragraph.** Machine prose is a crescendo: each paragraph heavier than the last. Let some be plain and factual. A flat paragraph between two hard ones is what makes the hard ones land.
-- **Funereal vocabulary is earned, not sprayed.** *death of…*, *funeral*, *grief*, *funeral he is the only one attending* belong where the subject really is a death (`the sensitive young man`), never as mood.
+- **Funereal vocabulary is earned, not sprayed.** *death of…*, *funeral*, *grief* are mood words. Even where the subject really is a thing dying (`the sensitive young man`), the line got cut: *"It isn't a triumph. It's a funeral, and he's the only one attending."* Default to cutting them.
 - **Test:** would he say this sentence out loud to a friend without the friend hearing that it was written down?
 
 ## his voice, evidenced
