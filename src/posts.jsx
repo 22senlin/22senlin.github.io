@@ -9,10 +9,10 @@ export const posts = [
       content: (
         <>
           <p>
-            A choice doesn't end when it's made. It sets the terms of the next one. The man sitting here today isn't being judged by his past, he's sitting inside it. What he can still reach, what he can turn down, whose calls still get answered. That math was done years ago.
+            A choice doesn't end when it's made. It sets the terms of the next one. Where he can go, what he can turn down, whose calls still get answered. That math was done years ago.
           </p>
           <p>
-            Nobody's coming to punish him. The total does it.
+            Nobody has to punish him, the total does it.
           </p>
           <p>
             The sum is not a memory. It is the shape of the reality he is standing in.
@@ -53,10 +53,10 @@ export const posts = [
       content: (
         <>
           <p>
-            一个选择不会在做出的时候就结束。它给下一个选择定条件。今天坐在这里的这个人，不是在被他自己的过去审判，他是坐在过去里面。他还能拿到什么、还能拒绝什么、电话打过去还有谁会接。这笔账很多年前就算完了。
+            一个选择不会在做出的时候就结束。它给下一个选择定条件。他还能去哪里、还能拒绝什么、电话打过去还有谁会接。这笔账很多年前就算完了。
           </p>
           <p>
-            没人来惩罚他。总和会办这件事。
+            没人需要惩罚他，总和会办这件事。
           </p>
           <p>
             总和不是一段记忆。它是他身处的现实的形状。
@@ -113,7 +113,7 @@ export const posts = [
             The gun kills every time. The man holding it doesn't. A kindergartener with a pistol kills exactly as dead as a professional does. A monkey with a gun is a man with a gun.
           </p>
           <p>
-            Everything a man spends his life building lies flat under a muzzle. What's left isn't strength.
+            Nothing a man has built matters under a muzzle. What's left isn't strength.
           </p>
           <p>
             Who sees whom.
@@ -128,7 +128,7 @@ export const posts = [
             Peeker's advantage is real, which is why this is a call and not a rule. With information, a timing, or a teammate swinging wide, a peek isn't a bet anymore, it's a collection. A duel and an execution are the same gunfight with the timing moved.
           </p>
           <p>
-            Patience is the other half. Holding an angle bleeds the nerve out slow, and the other man gives out first. He'll invent a reason to move. The waiting is the weapon.
+            Patience is the other half. Holding an angle wears him down, and the other man gives out first. He'll invent a reason to move. The waiting is the weapon.
           </p>
           <h3>
             cover
@@ -143,10 +143,10 @@ export const posts = [
             Men walk in straight lines to what they want.
           </p>
           <p>
-            Something hunted moves in bursts. A stop for no reason, a turn for no reason, then still long enough that whatever's watching gets bored. Never the same angle twice, never the same speed twice. Standing still isn't safety, it's a bet that the eye moves on, and the eye usually moves on.
+            A man being hunted moves in bursts. A stop for no reason, a turn for no reason, then still long enough that whatever's watching gets bored. Never the same angle twice, never the same speed twice. Standing still isn't safety, it's a bet that the eye moves on, and the eye usually moves on.
           </p>
           <p>
-            Being predictable is the only real weakness. Everything else can be survived. A man whose moves can be called is already dead. Nobody's shot him. The hole is in him.
+            Being predictable is the only real weakness. Everything else can be survived. A man whose moves can be called is already dead. Nobody's shot him. It's just a matter of time.
           </p>
           <h3>
             chaos
@@ -161,7 +161,7 @@ export const posts = [
             That's the floor, and it holds for about ninety seconds of anything real.
           </p>
           <p>
-            Past that, a man is standing on something that isn't at stake in the room. God, a duty, a person, a code. If he can lose everything here and still be something, the chaos has nothing to grab.
+            Past that, a man is standing on something that isn't at stake in the room. God, a duty, a person, a code. If losing everything here doesn't take that away, the chaos can't reach him.
           </p>
           <p>
             Peace is a direction, not a state. A man who says he's arrived has either stopped caring or has already lost everything.
@@ -187,7 +187,7 @@ export const posts = [
             枪一百次里一百次致命。拿枪的那个人不是。一个幼儿园小孩拿着手枪，打死一个人的效果跟职业选手一模一样。一只猴子拿着枪，就是个拿枪的人。
           </p>
           <p>
-            一个男人一辈子搭起来的东西，在枪口底下都是平的。剩下的不是力量。
+            一个男人搭起来的东西，在枪口底下不算什么。剩下的不是力量。
           </p>
           <p>
             谁先看见谁。
@@ -202,7 +202,7 @@ export const posts = [
             peeker's advantage 是真的，所以这是判断题，不是规则。有信息、有时机，或者队友从另一侧拉出去，这一探头就不是赌注了，是收割。对枪和处决是同一场枪战，时机挪了位置。
           </p>
           <p>
-            另一半是耐心。守角度是把神经慢慢放血，先撑不住的永远是对方。他会给自己编一个移动的理由。等待本身就是武器。
+            另一半是耐心。守角度会把人磨垮，先撑不住的永远是对方。他会给自己编一个移动的理由。等待本身就是武器。
           </p>
           <h3>
             掩体
@@ -217,10 +217,10 @@ export const posts = [
             人走直线，直奔他想要的东西。
           </p>
           <p>
-            被猎的东西是一段一段动的。没有理由地停一下，没有理由地转个向，然后一动不动，久到盯着它的那个失去兴趣。同一个角度绝不用第二次，同一种速度也一样。站着不动不是安全，是赌那只眼睛会移开，而眼睛一般都会移开。
+            被猎的人是一段一段动的。没有理由地停一下，没有理由地转个向，然后一动不动，久到盯着它的那个失去兴趣。同一个角度绝不用第二次，同一种速度也一样。站着不动不是安全，是赌那只眼睛会移开，而眼睛一般都会移开。
           </p>
           <p>
-            会被人算准是唯一的真破绽，别的都扛得住。行动能被人算准的人已经死了。没人朝他开枪。洞已经在他身上。
+            会被人算准是唯一的真破绽，别的都扛得住。行动能被人算准的人已经死了。还没人朝他开枪。只是早晚的事。
           </p>
           <h3>
             混乱
@@ -235,7 +235,7 @@ export const posts = [
             这是地板，对任何真实的东西大概撑九十秒。
           </p>
           <p>
-            过了这里，他脚下踩的是不在这间屋子里被押上的东西。上帝、职责、某个人、一条准则。如果他在这里失去一切之后还是个什么，混乱就没什么可抓的。
+            过了这里，他脚下踩的是不在这间屋子里被押上的东西。上帝、职责、某个人、一条准则。如果在这里失去一切也拿不走那个东西，混乱就碰不到他。
           </p>
           <p>
             平静是方向，不是状态。说自己已经到了的人，要么不再在乎，要么早就失去过一切。
@@ -286,7 +286,7 @@ export const posts = [
             Not because he wants to. Because he has to.
           </p>
           <p>
-            It costs him something. The hardness isn't free, and he feels the price while he pays it. He learns to say no. He learns that being disliked is sometimes better than going along. He learns that some doors won't open.
+            It costs him something. The hardness isn't free, and he feels the price while he pays it. He learns to say no. Being disliked is sometimes better than going along. Some doors won't open.
           </p>
           <p>
             And some doors must be broken.
@@ -339,7 +339,7 @@ export const posts = [
             不是因为他想。是因为他不得不。
           </p>
           <p>
-            这要他付代价。变硬不是免费的，他一边付一边感觉得到。他学会说不。他学会有时候被人看不惯，好过一味顺着。他学会有些门不会开。
+            这要他付代价。变硬不是免费的，他一边付一边感觉得到。他学会说不。有时候被人看不惯，好过一味顺着。有些门不会开。
           </p>
           <p>
             有些门必须被撞破。
