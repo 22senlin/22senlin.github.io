@@ -15,6 +15,9 @@ export const posts = [
             Nobody has to punish him. The total does it.
           </p>
           <p>
+            The sum is not a memory. It is the shape of the reality he is standing in.
+          </p>
+          <p>
             There is no subtraction. The ledger only takes additions. A man can regret a bet after the cards are down, but he cannot unplace it; the money is gone whether or not he understands why he lost.
           </p>
           <p>
@@ -54,6 +57,9 @@ export const posts = [
           </p>
           <p>
             没有人需要惩罚他。总和会替他做这件事。
+          </p>
+          <p>
+            总和不是一段记忆。它是他身处的现实的形状。
           </p>
           <p>
             没有减法。这本账只接受加法。牌已经翻开之后，一个人可以后悔下过的注，但他没法把它收回来；钱已经没了，不管他明不明白自己为什么输。

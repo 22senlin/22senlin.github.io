@@ -13,7 +13,8 @@ Voice laws, cut laws, and the mechanics. Rules here were paid for with deletion 
 ## what gets deleted
 
 - **Framing flourishes** — the sentence that sets the point up before the point ("Aim is a hardware problem…"). Keep the hard claim, drop the run-up.
-- **Significance inflation** — any line whose job is to tell the reader the thing matters: "and it is not small — ", "X is not a memory, it is the shape of the room", sweeping closers that scale the claim up ("the price of everything he will choose afterwards"). Cut the whole line, not just the clause.
+- **Significance inflation** — any line whose job is to tell the reader the thing matters: "and it is not small — ", sweeping closers that scale the claim up ("the price of everything he will choose afterwards"). Cut the whole line, not just the clause.
+- **A flagged line is not always a deletion.** He may hand the line back rewritten ("the shape of the **room**" → "the shape of the **reality** he is standing in"). Restore it in his wording, both languages, in its old position — the noun was his to pick, the sentence stays.
 - **Cute closers.**
 - **Sermon sections** — life-lesson tangents, the job/apartment/partner riff, "what actually transfers". One topic per section.
 - **Anecdote-example paragraphs** under a claim.
