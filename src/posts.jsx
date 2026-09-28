@@ -1,6 +1,105 @@
 // Blog posts with English & Chinese translations.
 export const posts = [
   {
+    slug: 'the-sum-of-choices',
+    date: '2026-09-27',
+    en: {
+      title: 'the sum of choices',
+      excerpt: 'Nothing is subtracted',
+      content: (
+        <>
+          <p>
+            A choice does not end when it is made. It sets the conditions of the next one. The man standing here today is not being judged by his past; he is standing inside it. What he can reach, what he can refuse, who still takes his call — that is the arithmetic, already done.
+          </p>
+          <p>
+            Nobody has to punish him. The total does it.
+          </p>
+          <p>
+            The sum is not a memory. It is the shape of the room he is standing in.
+          </p>
+          <p>
+            There is no subtraction. The ledger only takes additions. A man can regret a bet after the cards are down, but he cannot unplace it; the money is gone whether or not he understands why he lost.
+          </p>
+          <p>
+            Some choices can be undone, and the price of undoing them is usually higher than the price of making them. That gap is the tax on revision.
+          </p>
+          <p>
+            What he did not choose is missing too. Every path not taken is a door that rots shut — a skill never built, a person never met, a body never trained. Years later the absence looks like bad luck. It is a bill.
+          </p>
+          <p>
+            The escape he wants is a change of scene: another city, another job, another name. It does not work, because the man who made the decisions travels in the same car.
+          </p>
+          <p>
+            A new environment changes what is available. It does not change the thing that reads the options and picks. That thing was built by the same choices, and it arrives first.
+          </p>
+          <p>
+            Excuses are the same move at a smaller scale. Calling it his upbringing, his injury, his era, the way he was raised — none of it is false, and none of it moves a single number. It renames the debt. The debt keeps its interest.
+          </p>
+          <p>
+            The past is closed. The next decision is not.
+          </p>
+          <p>
+            A man who wasted twenty years cannot get them back. He can decide the next thing better. That is all the freedom that remains, and it is not small — the next decisions are the only raw material the future is made of.
+          </p>
+          <p>
+            Compounding runs in both directions. Bad choices make better ones harder: fewer options, less money, less trust, a worse body to decide with. Good ones buy room later. A man is not choosing well or badly once; he is setting the price of everything he will choose afterwards.
+          </p>
+        </>
+      ),
+    },
+    zh: {
+      title: '选择的总和',
+      excerpt: '没有减法',
+      content: (
+        <>
+          <p>
+            一个选择不会在做出的时候结束。它决定下一个选择的条件。站在今天的这个人不是在被他自己的过去审判，他是站在过去里面。他能够到什么、能拒绝什么、还有谁会接他的电话——这就是那道算术，已经算完了。
+          </p>
+          <p>
+            没有人需要惩罚他。总和会替他做这件事。
+          </p>
+          <p>
+            总和不是一段记忆。它是他站着的那个房间的形状。
+          </p>
+          <p>
+            没有减法。这本账只接受加法。牌已经翻开之后，一个人可以后悔下过的注，但他没法把它收回来；钱已经没了，不管他明不明白自己为什么输。
+          </p>
+          <p>
+            有些选择确实可以撤销，而撤销的价钱通常比当初做它的价钱更高。那中间的差价，就是对修改的征税。
+          </p>
+          <p>
+            他没选的那些东西同样是缺席的。每一条没走的路都是一扇慢慢朽死的门——没练成的技能、没认识的人、没被训练过的身体。多年以后，这种缺席看起来像运气不好。它是一张账单。
+          </p>
+          <p>
+            他想要的逃亡是换一个场景：换一个城市、换一份工作、换一个名字。没有用，因为做决定的那个男人坐同一辆车一起走。
+          </p>
+          <p>
+            新的环境改变的是有什么可选。它不改变那个读选项、然后挑选的东西。那个东西正是由同一批选择造出来的，而且它先到。
+          </p>
+          <p>
+            借口是同一个动作的缩小版：把它叫作他的成长环境、他的伤、他那个年代、他被养育的方式——这些没有一条是假的，也没有一条挪动任何一个数字。它只是给债务改了名。利息照收。
+          </p>
+          <p>
+            过去已经封上了。下一个决定还没有。
+          </p>
+          <p>
+            一个浪费掉二十年的男人拿不回那二十年。他可以让下一件事决定得更好。这就是剩下的全部自由，而它并不小——未来的原料，只有接下来的那些决定。
+          </p>
+          <p>
+            复利两个方向都跑。坏的选择让更好的选择更难：选项更少、钱更少、信任更少、用来做决定的身体更差。好的选择会给以后买下空间。一个人不是好一次坏一次，他是在为自己之后要做的每一个选择定价。
+          </p>
+          <h3>记账</h3>
+          <p>
+            内疚只有作为测量才有用。如果它改变了下一个决定，它就是信息。如果它没有，它就是一项不带任何服务的税——过去已经付过账了，再付一次也不会让它减少。
+          </p>
+          <p>
+            所以，一份糟糕记录的正确用法是校准：他到底做了什么、他当时相信什么、估算是在哪里错的。不肯看的人没法修正，他只会在一个新的地址把同一个错误再犯一遍。
+          </p>
+        </>
+      ),
+    },
+  },
+  {
     slug: 'killing-people-in-the-simulation',
     date: '2026-09-14',
     en: {
