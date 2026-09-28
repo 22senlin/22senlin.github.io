@@ -15,9 +15,6 @@ export const posts = [
             Nobody has to punish him. The total does it.
           </p>
           <p>
-            The sum is not a memory. It is the shape of the room he is standing in.
-          </p>
-          <p>
             There is no subtraction. The ledger only takes additions. A man can regret a bet after the cards are down, but he cannot unplace it; the money is gone whether or not he understands why he lost.
           </p>
           <p>
@@ -39,10 +36,10 @@ export const posts = [
             The past is closed. The next decision is not.
           </p>
           <p>
-            A man who wasted twenty years cannot get them back. He can decide the next thing better. That is all the freedom that remains, and it is not small — the next decisions are the only raw material the future is made of.
+            A man who wasted twenty years cannot get them back. He can decide the next thing better. That is all the freedom that remains.
           </p>
           <p>
-            Compounding runs in both directions. Bad choices make better ones harder: fewer options, less money, less trust, a worse body to decide with. Good ones buy room later. A man is not choosing well or badly once; he is setting the price of everything he will choose afterwards.
+            Compounding runs in both directions. Bad choices make better ones harder: fewer options, less money, less trust, a worse body to decide with. Good ones buy room later.
           </p>
         </>
       ),
@@ -57,9 +54,6 @@ export const posts = [
           </p>
           <p>
             没有人需要惩罚他。总和会替他做这件事。
-          </p>
-          <p>
-            总和不是一段记忆。它是他站着的那个房间的形状。
           </p>
           <p>
             没有减法。这本账只接受加法。牌已经翻开之后，一个人可以后悔下过的注，但他没法把它收回来；钱已经没了，不管他明不明白自己为什么输。
@@ -83,17 +77,10 @@ export const posts = [
             过去已经封上了。下一个决定还没有。
           </p>
           <p>
-            一个浪费掉二十年的男人拿不回那二十年。他可以让下一件事决定得更好。这就是剩下的全部自由，而它并不小——未来的原料，只有接下来的那些决定。
+            一个浪费掉二十年的男人拿不回那二十年。他可以让下一件事决定得更好。这就是剩下的全部自由。
           </p>
           <p>
-            复利两个方向都跑。坏的选择让更好的选择更难：选项更少、钱更少、信任更少、用来做决定的身体更差。好的选择会给以后买下空间。一个人不是好一次坏一次，他是在为自己之后要做的每一个选择定价。
-          </p>
-          <h3>记账</h3>
-          <p>
-            内疚只有作为测量才有用。如果它改变了下一个决定，它就是信息。如果它没有，它就是一项不带任何服务的税——过去已经付过账了，再付一次也不会让它减少。
-          </p>
-          <p>
-            所以，一份糟糕记录的正确用法是校准：他到底做了什么、他当时相信什么、估算是在哪里错的。不肯看的人没法修正，他只会在一个新的地址把同一个错误再犯一遍。
+            复利两个方向都跑。坏的选择让更好的选择更难：选项更少、钱更少、信任更少、用来做决定的身体更差。好的选择会给以后买下空间。
           </p>
         </>
       ),
