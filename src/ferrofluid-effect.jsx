@@ -13,14 +13,15 @@ const BAYER_8X8 = [
   [63/64, 31/64, 55/64, 23/64, 61/64, 29/64, 53/64, 21/64]
 ]
 
-const DEMON_PALETTE = [
-  { name: 'Electric Cyan', r: 0, g: 240, b: 255 },
-  { name: 'Azure Flame', r: 0, g: 140, b: 255 },
-  { name: 'Phantom Indigo', r: 80, g: 0, b: 220 },
-  { name: 'Cobalt Flame', r: 0, g: 80, b: 255 }
+const FOREST_PALETTE = [
+  { name: 'Pastel Sage', r: 178, g: 205, b: 163 },
+  { name: 'Soft Mint', r: 193, g: 226, b: 194 },
+  { name: 'Fern Green', r: 156, g: 190, b: 147 },
+  { name: 'Apricot', r: 241, g: 188, b: 143 },
+  { name: 'Peach', r: 246, g: 209, b: 177 }
 ]
 
-function combineDemonColors(c1, c2, w1 = 1, w2 = 1) {
+function combineForestColors(c1, c2, w1 = 1, w2 = 1) {
   const totalW = w1 + w2;
   const mixR = Math.round((c1.r * w1 + c2.r * w2) / totalW);
   const mixG = Math.round((c1.g * w1 + c2.g * w2) / totalW);
@@ -115,10 +116,9 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
       if (e.touches.length > 0) handlePointerMove(e.touches[0].clientX, e.touches[0].clientY)
     }
 
-    if (parentElement) {
-      parentElement.addEventListener('mousemove', handleMouseMove)
-      parentElement.addEventListener('touchmove', handleTouchMove, { passive: true })
-    }
+    // The canvas sits behind the glass; track pointer movement across the page.
+    window.addEventListener('mousemove', handleMouseMove)
+    window.addEventListener('touchmove', handleTouchMove, { passive: true })
 
     const basePixelSize = 6
     const previewPixelSize = 8
@@ -145,7 +145,7 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
         targetRadius: initR,
         stretch: 1.0,
         angle: 0,
-        color: DEMON_PALETTE[i % DEMON_PALETTE.length]
+        color: FOREST_PALETTE[i % FOREST_PALETTE.length]
       })
     }
 
@@ -184,7 +184,7 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
           deadParticle.targetRadius = initR
           deadParticle.stretch = 1.0
           deadParticle.angle = 0
-          deadParticle.color = DEMON_PALETTE[Math.floor(Math.random() * DEMON_PALETTE.length)]
+          deadParticle.color = FOREST_PALETTE[Math.floor(Math.random() * FOREST_PALETTE.length)]
         }
       }
 
@@ -215,7 +215,7 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
         const dx = mousePosRef.current.x - p.x
         const dy = mousePosRef.current.y - p.y
         const dist = Math.sqrt(dx * dx + dy * dy)
-        if (dist < 130) {
+        if (dist > 0 && dist < 130) {
           const force = (1 - dist / 150) * 0.06
           p.vx += (dx / dist) * force + mouseVelocityRef.current.x * 0.012
           p.vy += (dy / dist) * force + mouseVelocityRef.current.y * 0.012
@@ -328,9 +328,9 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
               const tr2 = other.targetRadius || r2
 
               // Combine colors of colliding bubbles
-              const c1 = p.color || DEMON_PALETTE[0]
-              const c2 = other.color || DEMON_PALETTE[0]
-              p.color = combineDemonColors(c1, c2, r1 * r1, r2 * r2)
+              const c1 = p.color || FOREST_PALETTE[0]
+              const c2 = other.color || FOREST_PALETTE[0]
+              p.color = combineForestColors(c1, c2, r1 * r1, r2 * r2)
 
               // Calculate combined sum capped at a balanced max radius (54px max)
               const combinedCurrentR = Math.min(54, Math.hypot(r1, r2))
@@ -405,7 +405,7 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
         const cy = Math.floor(p.y / pixelSize)
         const cosA = Math.cos(-p.angle)
         const sinA = Math.sin(-p.angle)
-        const col = p.color || DEMON_PALETTE[0]
+        const col = p.color || FOREST_PALETTE[0]
 
         for (let dy = -cellR; dy <= cellR; dy++) {
           for (let dx = -cellR; dx <= cellR; dx++) {
@@ -457,8 +457,8 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
               const ny = p1.y + dy * t
               const baseR = r1 * (1 - t) + r2 * t
 
-              const col1 = p1.color || DEMON_PALETTE[0]
-              const col2 = p2.color || DEMON_PALETTE[0]
+              const col1 = p1.color || FOREST_PALETTE[0]
+              const col2 = p2.color || FOREST_PALETTE[0]
               const ncR = col1.r * (1 - t) + col2.r * t
               const ncG = col1.g * (1 - t) + col2.g * t
               const ncB = col1.b * (1 - t) + col2.b * t
@@ -505,28 +505,17 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
             // Steeper, harder density curve for crisp, sharp flame boundaries
             const normD = Math.max(0, Math.min(1, (d - 0.10) / 0.38))
 
-            // Concentric Japanese Demonic Shader (Hard Flame Edges & Sharp Onibi Dither):
-            let cellR, cellG, cellB
-
-            if (normD >= 0.60) {
-              // Luminous white-hot electric cyan core
-              const t = (normD - 0.60) / 0.40
-              cellR = Math.round(180 * t)
-              cellG = Math.round(200 + t * 55)
-              cellB = 255
-            } else if (normD >= 0.25) {
-              // Vivid electric azure & cobalt blue flame body
-              const t = (normD - 0.25) / 0.35
-              cellR = Math.round(0 + t * 40)
-              cellG = Math.round(100 + t * 100)
-              cellB = Math.round(220 + t * 35)
-            } else {
-              // Hard-edged phantom violet-blue Onibi flame boundary
-              const t = normD / 0.25
-              cellR = Math.round(100 - t * 100)
-              cellG = Math.round(0 + t * 100)
-              cellB = Math.round(200 + t * 20)
+            // Preserve each particle's pastel hue and blend colors at liquid necks.
+            // Gentle shading keeps the center soft rather than white-hot.
+            const shade = 0.72 + normD * 0.28
+            const highlight = Math.max(0, normD - 0.6) * 0.15
+            const pastelChannel = value => {
+              const base = value / d
+              return Math.round(base * shade + (255 - base) * highlight)
             }
+            const cellR = pastelChannel(colorRField[gy][gx])
+            const cellG = pastelChannel(colorGField[gy][gx])
+            const cellB = pastelChannel(colorBField[gy][gx])
 
             ctx.fillStyle = `rgb(${cellR}, ${cellG}, ${cellB})`
 
@@ -565,13 +554,11 @@ export function FerrofluidEffect({ element = 'water', className, preview = false
       clearTimeout(initTimer)
       if (resizeObserver) resizeObserver.disconnect()
       window.removeEventListener('resize', resizeCanvas)
-      if (parentElement) {
-        parentElement.removeEventListener('mousemove', handleMouseMove)
-        parentElement.removeEventListener('touchmove', handleTouchMove)
-      }
+      window.removeEventListener('mousemove', handleMouseMove)
+      window.removeEventListener('touchmove', handleTouchMove)
       if (animationRef.current) cancelAnimationFrame(animationRef.current)
     }
-  }, [preview])
+  }, [preview, element])
 
   return (
     <canvas
