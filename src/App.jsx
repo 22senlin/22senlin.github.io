@@ -15,8 +15,7 @@ function Icon({ name, ...props }) {
   </svg>
 }
 
-function SummoningCircle({ seed, detail, ink, miniature = false }) {
-  const symmetry = 3
+function SummoningCircle({ seed, symmetry, detail, ink, miniature = false }) {
   const design = createCircleDesign(seed, symmetry, detail)
   const nodes = Array.from({ length: symmetry }, (_, i) => i * Math.PI * 2 / symmetry + design.rotation)
   const polygon = (radius, twist = 0, step = 1) => nodes.map(a => `M${point(radius, a + twist)} L${point(radius, a + twist + step * Math.PI * 2 / symmetry)}`).join(' ')
@@ -48,6 +47,7 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(true)
   const [maximized, setMaximized] = useState(false)
   const [seed, setSeed] = useState(1408)
+  const symmetry = [3, 7, 12][Math.floor(createCircleDesign(seed, 3, 3).rotation / (Math.PI * 2) * 3)]
   const detail = 3
   const [color, setColor] = useState('Sage')
   useEffect(() => { const onKey = e => { if (e.key === 'Escape') setIsOpen(false) }; window.addEventListener('keydown', onKey); return () => window.removeEventListener('keydown', onKey) }, [])
@@ -56,14 +56,14 @@ export default function App() {
       <LayeredBackground />
       {isOpen ? <section className={`app-window ${maximized ? 'is-maximized' : ''}`} aria-label="Summoning circle generator">
         <header className="window-bar"><div className="window-actions"><button aria-label="Minimize generator" onClick={() => setIsOpen(false)}>−</button><button aria-label={maximized ? 'Restore window' : 'Maximize window'} onClick={() => setMaximized(!maximized)}>□</button><button aria-label="Close generator" onClick={() => setIsOpen(false)}>×</button></div></header>
-        <div className="app-body"><div className="circle-stage"><div className="circle-art"><SummoningCircle seed={seed} detail={detail} ink={inks[color]} /></div></div>
+        <div className="app-body"><div className="circle-stage"><div className="circle-art"><SummoningCircle seed={seed} symmetry={symmetry} detail={detail} ink={inks[color]} /></div></div>
         <aside className="generator-controls">
           <fieldset className="control-group"><legend>Ink <span>{color}</span></legend><div className="ink-swatches">{Object.entries(inks).map(([name, value]) => <button key={name} aria-label={`${name} ink`} aria-pressed={color === name} style={{ '--ink': value }} className={color === name ? 'selected' : ''} onClick={() => setColor(name)} />)}</div></fieldset>
           <div className="seed-field"><label htmlFor="seed">SEED</label><input id="seed" type="number" min="0" max="999999" value={seed} onChange={e => setSeed(Math.max(0, Math.min(999999, Number(e.target.value) || 0)))} /></div>
           <button className="generate-button" onClick={() => setSeed(Math.floor(Math.random() * 999999))}><Icon name="shuffle" /> Generate</button>
         </aside></div>
       </section> : null}
-      <nav className="desktop-taskbar" aria-label="Applications"><button className={`app-shortcut ${isOpen ? 'active' : ''}`} aria-label="Open summoning circle generator" aria-pressed={isOpen} onClick={() => setIsOpen(true)}><SummoningCircle seed={seed} detail={detail} ink={inks[color]} miniature /></button><div className="taskbar-spacer" /><button className="show-desktop" aria-label="Show desktop" onClick={() => setIsOpen(false)} /></nav>
+      <nav className="desktop-taskbar" aria-label="Applications"><button className={`app-shortcut ${isOpen ? 'active' : ''}`} aria-label="Open summoning circle generator" aria-pressed={isOpen} onClick={() => setIsOpen(true)}><SummoningCircle seed={seed} symmetry={symmetry} detail={detail} ink={inks[color]} miniature /></button><div className="taskbar-spacer" /><button className="show-desktop" aria-label="Show desktop" onClick={() => setIsOpen(false)} /></nav>
     </main>
   )
 }
